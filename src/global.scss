@@ -11,7 +11,6 @@
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
 
-/* -- GERAIS -- */
 .no-padding {
     padding: 0;
 }
@@ -33,10 +32,6 @@
     color: var(--dark-smoke);
     font-size: 1.5rem;
   }
-
-/* --- */
-
-/* -- HEADER -- */
 
 .header-marvel{
     background: var(--fullwhite);
@@ -62,9 +57,7 @@
   background: var(--dark-smoke);
   cursor: pointer;
 }
-/* --- */
 
-/* footer */
 .footer-marvel{
     padding: 15px 0;
     background: var(--fullwhite);

@@ -1,28 +1,27 @@
-/* cabeçalho e input de busca */
 .fixed-info{
   position: sticky;
   top: 0;
   left: 0;
-  background: var(--dark-snow);
+  background: green;
   z-index: 1000;
 }
 
 .page-title {
   text-align: center;
-  color: var(--dark-smoke);
+  color: black;
   font-size: 1.6rem;
 }
 
 .page-subtitle{
-  color: var(--dark-smoke);
+  color: black;
   font-size: 1.2rem;
   text-align: center;
 }
 
 .input-form{
   border-radius: 4px;
-  border: 1px solid var(--dark-snow);
-  background: var(--fullwhite);
+  border: 1px solid green;
+  background: green;
   padding-left: 5px!important;
   padding-right: 35px!important;
   overflow: hidden;
@@ -36,12 +35,10 @@
   z-index: 1000;
   color: var(--dark-smoke);
 }
-/* ----- * ----- */
-
-/* listagem dos personagens */
 
 .title-list{
-  color: var(--dark-smoke);
+  color: black;
+  text-decoration: overline;
   font-size: 1rem;
 }
 
@@ -56,13 +53,10 @@
   box-shadow: 0px 0px 3px var(--dark);
 }
 
-/* ----- * ----- */
-
-/* item personagem */
 .character-img{
   height: 48px;
   width: 48px;
-  border-radius: 4px;
+  border-radius: 50%;
 }
 
 .character-name{
@@ -74,9 +68,7 @@
   color: var(--dark-smoke);
   font-size: 1rem;
 }
-/* ----- * ----- */
 
-/* ----- paginação ----- */
 .go-page{
   margin: 0 8px;
   padding: 5px 10px;
@@ -97,7 +89,7 @@
   border-radius: 4px;
   font-size: 1.2rem;
   color: var(--fullwhite);
-  background: var(--blue);
+  background:green;
   cursor: pointer;
   position: relative;
   display: inline-block;
@@ -106,8 +98,6 @@
 .icon-nav-page{
   cursor: pointer;
 }
-
-/* ----- * ----- */
 
 @media(min-width: 768px){
   .frame-list{
@@ -119,11 +109,11 @@
   }
 
   .page-title{
-    text-align: left;
+    text-align: center;
     font-size: 2.0rem;
   }
 
   .page-subtitle{
-    text-align: left;
+    text-align: center;
   }
 }
