@@ -1,27 +1,46 @@
+.header-marvel{
+  background: black;
+  color: white;
+}
+.icon-account{
+  background:black;
+}
+.body{
+  background:var(--dark-smoke);
+}
+.none-results{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.pagination{
+  background:black;
+}
+
 .fixed-info{
   position: sticky;
   top: 0;
   left: 0;
-  background: green;
+  background: #ca1b1b;
   z-index: 1000;
 }
 
 .page-title {
   text-align: center;
-  color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.6rem;
 }
 
 .page-subtitle{
-  color: black;
   font-size: 1.2rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
 
 .input-form{
   border-radius: 4px;
-  border: 1px solid green;
-  background: green;
+  border: 1px solid #ca1b1b;
+  background: #ca1b1b;
   padding-left: 5px!important;
   padding-right: 35px!important;
   overflow: hidden;
@@ -31,26 +50,28 @@
   position: absolute;
   top: 12px;
   right: 10px;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
   z-index: 1000;
-  color: var(--dark-smoke);
+  color: black;
 }
 
 .title-list{
   color: black;
+  font-family: Arial, Helvetica, sans-serif;
   text-decoration: overline;
   font-size: 1rem;
 }
 
 .white-frame-list{
-  background: var(--white);
+  background: black;
   border-radius: 4px;
   padding: 5px;
 }
 
 .white-frame-list:hover{
   cursor: pointer;
-  box-shadow: 0px 0px 3px var(--dark);
+  box-shadow: 0px 0px 3px black;
 }
 
 .character-img{
@@ -60,23 +81,24 @@
 }
 
 .character-name{
-  color: var(--dark-smoke);
+  color: white;
   font-size: 1.3rem;
 }
 
 .character-info{
-  color: var(--dark-smoke);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
 }
 
 .go-page{
   margin: 0 8px;
   padding: 5px 10px;
-  border: 1px solid var(--dark-snow);
+  border: 1px solid black;
   border-radius: 4px;
   font-size: 1.2rem;
-  color: var(--dark-smoke);
-  background: var(--snow);
+  color: black;
+  background: white;
   cursor: pointer;
   position: relative;
   display: inline-block;
@@ -85,11 +107,11 @@
 .go-page-active{
   margin: 0 8px;
   padding: 5px 10px;
-  border: 1px solid var(--blue);
+  border: 1px solid white;
   border-radius: 4px;
   font-size: 1.2rem;
-  color: var(--fullwhite);
-  background:green;
+  color: white;
+  background:#ca1b1b;
   cursor: pointer;
   position: relative;
   display: inline-block;
@@ -109,11 +131,13 @@
   }
 
   .page-title{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 2.0rem;
   }
 
   .page-subtitle{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
   }
 }

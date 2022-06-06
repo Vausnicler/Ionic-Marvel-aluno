@@ -1,3 +1,13 @@
+.header-marvel{
+  background: black;
+  color: white;
+}
+.icon-account{
+  background:black;
+}
+.body{
+  background:var(--dark-smoke);
+}
 .icon-back{
   font-size: 10px;
 }
@@ -36,29 +46,32 @@
 }
 
 .comic-name{
-    color: var(--dark-smoke);
+    color: white;
     font-size: 1.3rem;
     font-weight: bold;
 }
 
 .comic-description{
-  color: var(--dark-smoke);
+  color: white;
   font-size: 1.0rem;
 }
 
 @media(min-width: 768px){
   .page-title {
     text-align: left;
-    color: var(--dark-smoke);
+    color: white;
     font-size: 1.6rem;
   }
   
   .character-info{
+    color: white;
     text-align: left;
   }
 
   .page-subtitle{
-    text-align: left;
+    color: white;
+    background-color: black;
+    text-align: center;
     font-size: 1.4rem;
   }
 }

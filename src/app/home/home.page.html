@@ -4,13 +4,13 @@
       Projeto <span class="name-test"> API Marvel </span>
     </ion-col>
     <ion-col size="4" size-md="1" class="ion-text-right">
-      <span class="icon-account"><ion-icon name="bookmarks"></ion-icon></span>
+      <span class="icon-account"><ion-button color="danger" href="https://www.marvel.com/">Marvel</ion-button></span>
     </ion-col>
   </ion-row>
 </ion-header>
 
 <ion-content>
-  <ion-row>
+  <ion-row class="body">
     <ion-col size="12" class="content-page">
       <ion-row class="fixed-info">
         <ion-col size="12">
@@ -34,13 +34,13 @@
         <ion-col size="12" *ngIf="characters.length > 0">
           <ion-row>
             <ion-col size="12" size-md="4" class="title-list">
-              Personagem 
+              PERSONAGEM 
             </ion-col>
             <ion-col size="12" size-md="4" class="title-list class-md-none">
-              Séries 
+              SÉRIES 
             </ion-col>
             <ion-col size="12" size-md="4" class="title-list class-md-none">
-              Eventos
+              EVENTOS
             </ion-col>
           </ion-row>
 
@@ -92,7 +92,7 @@
 </ion-content>
 
 <ion-footer class="footer-marvel">
-  <ion-row>
+  <ion-row class="pagination">
     <ion-col size="12" size-md="4" offset-md="4" class="ion-text-center">
       <ion-row class="ion-align-items-center">
         <ion-col size="1" class="icon-nav-page" (click)="goFirstPage()">

@@ -1,6 +1,10 @@
 
 /** Ionic CSS Variables **/
 :root {
+
+  --ion-toolbar-background: #000000;
+  --ion-toolbar-color: #ffffff;
+
   --fullwhite                 : #fff;
   --white                     : #fafafa;
   --dark-snow                  : #E5E5E5;
@@ -79,6 +83,7 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
 }
 
 @media (prefers-color-scheme: light) {
@@ -238,4 +243,5 @@
 
     --ion-card-background: #1e1e1e;
   }
+
 }
